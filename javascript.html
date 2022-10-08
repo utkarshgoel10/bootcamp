@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS#2</title>
+</head>
+<body>      
+    <script>
+        
+        // 1. Var/let/const: 
+
+        // var u = 10;
+        // console.log(u)
+
+        // let u = 10;
+        // console.log(u)
+        
+        // const u = 100;
+        // console.log(u)
+        
+        // var aryan = "Hello"
+        // aryan = "Bye"
+        // console.log(aryan);
+        
+        // let aryan = "Hello"
+        // aryan = "Bye2"
+        // console.log(aryan);
+
+        // const aryan = "Hello"
+        // aryan = "Bye"
+        // console.log(aryan);
+
+        // Var : Function scoped
+        // Let/const : block level scoped
+
+        // function eligible(ans = true){
+        //     if(ans == true){
+        //         let license = "Accepted";                                   
+        //     }
+        //     console.log(license);         
+        // }          
+        // eligible(true);
+
+    // ************************************************************
+
+        // 2. Template strings
+        // let harsh = 10;
+        // let vivek = 100;
+        // console.log(`Value of variable harsh is: ${harsh}, value of variable vivek is: ${vivek}`);        
+    
+        
+    // ************************************************************
+
+        // 3. Functions
+//         function sum(){
+//             let a=5,b=5;
+//             return `Sum: ${a+b}`;
+//         }
+//         console.log(sum());
+        
+    // *******************************************************
+
+// // 4. Arrow function (compare with normal function)
+//         const sum2 = () =>`Sum: ${(a=5)+(b=5)}`;
+//         console.log(sum2());
+
+    // *******************************************************
+
+    // 5. Arrays
+    // var arr = ["Vivek", "Aryan", "Rohit", "Harsh"]
+    
+    // Traversal
+
+    // A. For loop
+    // for(var i=0; i<arr.length; i++){
+    //     console.log(arr[i]);
+    // }
+
+    // B. For..in loop
+    // for(let element in arr){
+    //     console.log(arr[element]);
+    // }
+    
+    // C. For..of loop
+    // for(let i of arr){
+    //     console.log(i);
+    // }
+    
+    // D. forEach
+    // var yeForEach = arr.forEach(function(element){
+    //     return element
+    // })
+    // console.log(yeForEach)
+
+    // E. Map Method
+    // var yeMap = arr.map(function(element){
+    //     return element
+    // })
+    // console.log(yeMap)
+    
+    // E. Filter
+    // const age = [10, 18, 16, 20, 40, 23, 09]
+    //age>18
+
+    // const eligible = age.filter(function(element){
+    //     return element > 18
+    // })
+    // console.log(eligible)
+
+
+    // Ques. Print Arr elements which when multiplied by 2, the result> 10
+
+    // let arr = [1,2,3,4,5,6,7,8,9,10]
+        
+    // let arr2 = arr.map(function(element){
+    //     return element * 2;
+    // }).filter(function (result){
+    //     if(result>10){
+    //         var e = result/2;
+    //         console.log(e);
+    //     }
+    // })    
+
+    </script>
+</body>
+</html>
