@@ -1,0 +1,25 @@
+html{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0a192f;
+    color: white;        
+}
+
+.container{
+    width: 400px;
+}
+
+.paragraph-styling{
+    margin: 10;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #64ffda;
+    border-radius: 0.4rem;
+    color: black;
+    padding: 1.1rem;
+    transition: all 0.5s ease;
+}
+
+.paragraph-styling:hover{
+    transform: scale(1.05);
+}
